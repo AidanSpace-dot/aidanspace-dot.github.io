@@ -1,1 +1,1 @@
-# aidanspace-dot.github.io
+# aidanspace.github.io
