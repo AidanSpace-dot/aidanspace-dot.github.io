@@ -74,7 +74,7 @@ article {
 
 nav[class="nav"] {
   height: 50px;
-  background-color: #ff80ff;
+  background-color: gray;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
