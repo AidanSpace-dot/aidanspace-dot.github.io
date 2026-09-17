@@ -49,7 +49,7 @@ h3 {
 }
 
 p, li, table {
-  font-size: 1.6rem;
+  font-size: 2.0rem;
   line-height: 1.5;
 }
 
@@ -129,6 +129,7 @@ main {
 
 article {
   flex: 5;
+  font-size: 1.8rem;
 }
 
 .secondary {
