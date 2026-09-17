@@ -19,12 +19,14 @@ body {
 /* || typography */
 
 font[size="7"], font[size="6"], font[size="5"] {
-  font-family: 'Sonsie One', cursive;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-weight: normal;
   color: #2a2a2a;
 }
 
 p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
+  font-weight:normal;
   color: #2a2a2a;
 }
 
@@ -32,19 +34,22 @@ font[size="7"] {
   font-size: 4rem;
   text-align: center;
   color: white;
+  font-weight: normal;
   text-shadow: 2px 2px 10px black;
 }
 
 h2 {
   font-size: 4.0rem;
   text-align: center;
-  font-family: 'Sonise One', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
   color: #2a2a2a;
 }
 
 h3 {
   font-size: 3.0rem;
-  font-family: 'Sonsie One', cursive;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: normal;
   color: #2a2a2a;
 }
 
@@ -105,8 +110,12 @@ nav[class="nav"] .search {
 }
 
 .search input {
-  font-size: 1.6rem;
-  height: 32px;
+  font-size: 2rem;
+  height: 44px;
+}
+
+.search label {
+  font-size: 2.8rem;
 }
 
 .search input[type="search"] {
