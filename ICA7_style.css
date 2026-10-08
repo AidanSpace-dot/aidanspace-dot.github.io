@@ -29,8 +29,9 @@ h2 {
   }
 
   a:hover {
+    color: green;
     text-decoration: none;
-  }
+}
 
   ul {
     background-color: #eeeeee;
