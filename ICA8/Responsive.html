@@ -79,6 +79,48 @@
         border: 5px solid #000;
         padding: 0.5em 1em;
         color: #fff;
+
+        
+@media (min-width: 800px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header ul {
+        display: flex;
+    }
+
+    header a {
+        border: none;
+    }
+
+    main {
+        display: flex;
+        gap: 20px;
+    }
+
+    article {
+        width: 75%;
+        min-width: 0;
+    }
+
+    .sidebar {
+        width: 25%;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .cards li {
+        margin: 0;
+    }
+}
+
       }
     </style>
   </head>
