@@ -17,9 +17,11 @@ const characters = [
     "a bass player who forgot how to play"
 ];
 
-// the soup kitchen
-// Disneyland
-// the White House
+const places = [
+    " a sold-out concert",
+    "a sketchy recording studio",
+    "a music festival"
+];
 
 // spontaneously combusted
 // melted into a puddle on the sidewalk
