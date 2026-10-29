@@ -13,18 +13,18 @@ function randomValueFromArray(array) {
 
 const characters = [
     "an angry drummer",
-    " a guitarist with a massive ego",
+    "a guitarist with a massive ego",
     "a bass player who forgot how to play"
 ];
 
 const places = [
-    " a sold-out concert",
+    "a sold-out concert",
     "a sketchy recording studio",
     "a music festival"
 ];
 
 const events = [
-    "launches a drumstick into the crowd",
+    "launched a drumstick into the crowd",
     "accidentally destroyed $10,000 worth of equipment",
     "started a fight with the sound guy"
 ];
@@ -32,9 +32,13 @@ const events = [
 // Partial return random string function
 
 function returnRandomStoryString() {
-  // It was 94 Fahrenheit outside, so :insertx: went for a walk. When they got to :inserty:, they stared in horror for a few moments, then :insertz:. Bob saw the whole thing, but was not surprised — :insertx: weighs 300 pounds, and it was a hot day.
+ const character = randomValueFromArray(characters);
+ const place = randomValueFromArray(places);
+ const event = randomValueFromArray(events);
 
-  return storyText;
+ const storyText = `It was 94 Fahrenheit outside when ${character} showed up at ${place}. Everything was going fine until they ${event}. Bob watched the whole thing happen and couldn't believe his eyes. Somehow, ${character} still managed to finish the show, despite weighing 300 pounds.`;
+
+ return storyText;
 }
 
 // Event listener and partial generate function definition
