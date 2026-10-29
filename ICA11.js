@@ -11,9 +11,11 @@ function randomValueFromArray(array) {
 
 // Raw text strings
 
-// Willy the Goblin
-// Big Daddy
-// Father Christmas
+const characters = [
+    "an angry drummer",
+    " a guitarist with a massive ego",
+    "a bass player who forgot how to play"
+];
 
 // the soup kitchen
 // Disneyland
