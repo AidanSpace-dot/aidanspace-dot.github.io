@@ -23,9 +23,11 @@ const places = [
     "a music festival"
 ];
 
-// spontaneously combusted
-// melted into a puddle on the sidewalk
-// turned into a slug and slithered away
+const events = [
+    "launches a drumstick into the crowd",
+    "accidentally destroyed $10,000 worth of equipment",
+    "started a fight with the sound guy"
+];
 
 // Partial return random string function
 
