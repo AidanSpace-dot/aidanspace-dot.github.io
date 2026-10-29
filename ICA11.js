@@ -32,11 +32,11 @@ const events = [
 // Partial return random string function
 
 function returnRandomStoryString() {
- const character = randomValueFromArray(characters);
- const place = randomValueFromArray(places);
- const event = randomValueFromArray(events);
+ const randomCharacter = randomValueFromArray(characters);
+ const randomPlace = randomValueFromArray(places);
+ const randomEvent = randomValueFromArray(events);
 
- const storyText = `It was 94 Fahrenheit outside when ${character} showed up at ${place}. Everything was going fine until they ${event}. Bob watched the whole thing happen and couldn't believe his eyes. Somehow, ${character} still managed to finish the show, despite weighing 300 pounds.`;
+ const storyText = `It was 94 Fahrenheit outside when ${randomCharacter} showed up at ${randomPlace}. Everything was going fine until they ${randomEvent}. Bob watched the whole thing happen and couldn't believe his eyes. Somehow, ${randomCharacter} still managed to finish the show, despite weighing 300 pounds.`;
 
  return storyText;
 }
@@ -56,6 +56,6 @@ function generateStory() {
   }
 
   // TODO: replace "" with the correct expression
-  story.textContent = "";
+  story.textContent = returnRandomStoryString();
   story.style.visibility = "visible";
 }
