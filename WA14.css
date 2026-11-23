@@ -56,3 +56,30 @@ section h2 {
     font-weight: bold;
 }
 
+/* Individual Colors */
+.navy {
+    background-color: #1E293B;
+    border: 2px solid #94A3B8;
+}
+
+.gold {
+    background-color: gold;
+    color: black;
+}
+
+.slate {
+    background-color: #334155;
+}
+
+.red {
+    background-color: #7F1D1D;
+}
+
+.gray {
+    background-color: #94A3B8;
+    color: black;
+}
+
+
+
+
