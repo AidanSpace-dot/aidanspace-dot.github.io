@@ -109,3 +109,35 @@ section h2 {
 
 
 
+/* Spacing System */
+.spacingExamples {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.spacing {
+    background-color: gold;
+    width: 30px;
+}
+
+.spacing.xs {
+    height: 10px;
+}
+
+.spacing.sm {
+    height: 20px;
+}
+
+.spacing.md {
+    height: 30px;
+}
+
+.spacing.lg {
+    height: 40px;
+}
+
+.spacing.xl {
+    height: 50px;
+}
