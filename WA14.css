@@ -38,3 +38,9 @@ section h2 {
     font-size: 26px;
 }
 
+/* Color Palette */
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
