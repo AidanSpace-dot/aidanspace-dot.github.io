@@ -80,3 +80,17 @@ header p {
     border: none;
     border-radius: 8px;
 }
+
+
+/* Submit Button */
+#submitButton {
+    background-color: gold;
+    color: black;
+    padding: 15px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
