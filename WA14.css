@@ -44,3 +44,15 @@ section h2 {
     flex-wrap: wrap;
     gap: 15px;
 }
+
+
+/* Color Boxes */
+.color {
+    flex: 1;
+    min-width: 150px;
+    padding: 25px 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
