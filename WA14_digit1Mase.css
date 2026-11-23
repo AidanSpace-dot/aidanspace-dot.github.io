@@ -30,9 +30,10 @@ header p {
     margin-bottom: 15px;
 }
 
+
 /* Verification Information */
 .mazeInfo {
-    width: 900px;
+    width: 650px;
     max-width: 90%;
     margin: 0 auto 15px;
     display: flex;
@@ -45,10 +46,10 @@ header p {
 
 /* Maze Container */
 .mazeContainer {
-    width: 900px;
+    width: 650px;
     max-width: 90%;
     margin: 0 auto;
-    padding: 25px;
+    padding: 20px;
     border: 2px solid gold;
     border-radius: 15px;
     box-sizing: border-box;
@@ -58,7 +59,7 @@ header p {
 .mazeGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
+    gap: 12px;
 }
 
 /* Checkpoint Squares */
@@ -73,11 +74,13 @@ header p {
     align-items: center;
 }
 
+/* Checkpoint Numbers */
 .checkpoint h3 {
     font-size: 28px;
     margin: 0;
 }
 
+/* Checkpoint Labels */
 .checkpoint p {
     font-size: 14px;
     margin: 5px 0 0;
