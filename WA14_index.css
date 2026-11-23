@@ -6,6 +6,7 @@ header {
 
 header h1 {
     margin-bottom: 5px;
+    color: gold;
 }
 
 header p {
@@ -16,8 +17,13 @@ header p {
  .warnings {
     margin-left: 40px;
     margin-top: 30px;
-
 }
+ .warnings h2 {
+    color: gold;
+ }
+ .warnings h3 {
+    color: gold;
+ }
 
 /* background */
 body {
