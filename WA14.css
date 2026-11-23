@@ -81,5 +81,31 @@ section h2 {
 }
 
 
+/* Typography */
+.headingOne {
+    color: gold;
+    font-size: 36px;
+}
+
+.headingTwo {
+    color: gold;
+    font-size: 28px;
+}
+
+.headingThree {
+    color: white;
+    font-size: 22px;
+}
+
+.bodyText {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.smallText {
+    font-size: 12px;
+    color: #CBD5E1;
+}
+
 
 
