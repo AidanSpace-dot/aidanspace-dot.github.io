@@ -36,3 +36,24 @@ header p {
 }
 
 
+/* Phone Number Table */
+.phoneContainer {
+    width: 900px;
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 25px;
+    border: 2px solid gold;
+    border-radius: 15px;
+}
+
+.phoneContainer table {
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 6px;
+}
+
+.phoneContainer input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
