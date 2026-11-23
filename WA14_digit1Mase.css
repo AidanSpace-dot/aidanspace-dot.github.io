@@ -1,0 +1,106 @@
+
+/* Page Background */
+body {
+    background-color: #1E293B;
+    color: white;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: gold;
+    margin-bottom: 5px;
+}
+
+header p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+/* Maze Section */
+.maze {
+    text-align: center;
+}
+
+.maze h2 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+/* Verification Information */
+.mazeInfo {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mazeInfo p:last-child {
+    color: #EF4444;
+}
+
+/* Maze Container */
+.mazeContainer {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+    border: 2px solid gold;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+/* Maze Grid */
+.mazeGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+/* Checkpoint Squares */
+.checkpoint {
+    aspect-ratio: 1 / 1;
+    background-color: #334155;
+    border: 2px solid #94A3B8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkpoint h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.checkpoint p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+/* Starting Square */
+.start {
+    background-color: gold;
+    border-color: gold;
+    color: black;
+}
+
+/* Guard Squares */
+.guard {
+    background-color: #7F1D1D;
+    border-color: #EF4444;
+}
+
+/* L-Shaped Maze */
+.checkpoint:nth-child(5) {
+    grid-column: 4;
+}
+
+.checkpoint:nth-child(6) {
+    grid-column: 4;
+}
