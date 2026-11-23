@@ -155,3 +155,15 @@ section h2 {
     margin-right: 10px;
 }
 
+.primaryButton:hover, .verifyButton:hover {
+    background-color: #E6C200;
+}
+
+.standardLink {
+    color: gold;
+    margin-right: 10px;
+}
+
+.visitedLink {
+    color: #C084FC;
+}
