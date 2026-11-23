@@ -2,7 +2,7 @@
 /* Page Background */
 body {
     background-color: #1E293B;
-    color: #E2E8F0;
+    color: white;
 }
 
 /* Header Styles */
@@ -17,6 +17,7 @@ header h1 {
 
 header p {
     margin-top: 0;
+    font-size: 14px;
 }
 
 /* Phone Section */
@@ -26,4 +27,12 @@ header p {
 
 .phone h2 {
     color: gold;
+    margin-bottom: 5px;
 }
+
+.phone p {
+    margin-top: 0;
+    font-size: 14px;
+}
+
+
