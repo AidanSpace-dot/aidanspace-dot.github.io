@@ -24,3 +24,17 @@ header p {
     font-size: 16px;
     margin-top: 0;
 }
+
+
+/* Main Sections */
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section h2 {
+    color: gold;
+    font-size: 26px;
+}
+
